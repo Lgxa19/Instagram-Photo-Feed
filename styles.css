@@ -1,0 +1,45 @@
+* {
+
+}
+body {
+    background-color: #eaeaea;
+    width: 100%;
+    margin: 0px;
+    padding: 0px 0px 80px 0px;
+}
+#title {
+    background-color: white;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+h1 {
+    margin: auto;
+}
+#feed {
+    background-color: white;
+    width: 45%;
+    margin: auto;
+}
+.post-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 15px 0px 15px;
+}
+.post {
+    margin-top: 70px;
+}
+.photo-number {
+    display: flex;
+}
+.photo-number > p{
+    align-self: center;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+.post-text {
+    padding: 10px 20px 10px 20px;
+    text-align: justify;
+}
